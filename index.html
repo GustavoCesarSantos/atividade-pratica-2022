@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/components/card-project.css" />
+    <link rel="stylesheet" href="css/components/main-action.css" />
+    <link rel="stylesheet" href="css/components/main-banner.css" />
+    <link rel="stylesheet" href="css/components/main-box.css" />
+    <link rel="stylesheet" href="css/components/main-button.css" />
+    <link rel="stylesheet" href="css/components/main-footer.css" />
+    <link rel="stylesheet" href="css/components/main-form.css" />
+    <link rel="stylesheet" href="css/components/main-header.css" />
+    <link rel="stylesheet" href="css/components/main-input.css" />
+    <link rel="stylesheet" href="css/components/main-label.css" />
+    <link rel="stylesheet" href="css/components/main-section.css" />
+    <link rel="stylesheet" href="css/components/main-title.css" />
+    <link rel="stylesheet" href="css/components/main-subtitle.css" />
+    <link rel="stylesheet" href="css/components/wrapper-cards.css" />
+    <title>Gustavo Cesar Santos</title>
+  </head>
+  <body>
+    <!-- Cabeçalho principal com os links para as outras paginas -->
+    <header class="main-header">
+      <!-- Tag nav com os links de acesso as outras paginas -->
+      <nav>
+        <a href="about.html" lang="pt-BR" class="main-action"> Sobre mim</a>
+        <a href="graduate.html" lang="pt-BR" class="main-action"> Graduação</a>
+        <a href="projects.html" lang="pt-BR" class="main-action"> Portfólio</a>
+        <a href="contact.html" lang="pt-BR" class="main-action"> Contato</a>
+      </nav>
+    </header>
+    <!-- Banner principal -->
+    <section class="main-banner">
+      <!-- Tag div que realiza "wrappe" do titulo principal e do subtitulo -->
+      <div class="wrapper">
+        <div class="main-box">
+          <h2 class="main-title">Gustavo Cesar</h2>
+          <h3 class="main-subtitle">Web Developer</h3>
+        </div>
+      </div>
+    </section>
+    <!-- Seção "Sobre mim" -->
+    <section class="main-section -about">
+      <!-- Titulo principal da seção -->
+      <h2 class="main-title -variation">Sobre mim</h2>
+      <!-- Tag p com um resumo sobre mim -->
+      <p class="main-subtitle -about">
+        Me chamo Gustavo, tenho 26 anos, iniciei meus estudos em programação em
+        2012 em um curso técnico, lá aprendi sobre lógica de programação e
+        algoritimos, aprendi as linguagens delphi e c#, mas o curso era focado
+        no desenvolvimento desktop. Já em 2018 inicei cursos online sobre
+        desenvolvimento web, aprendendo Html, Css e Javascript e decidi me
+        aprofundar no desenvolvimento back-end utilizando Nodejs, foi 2019 que
+        tive minha primeira oportunidade de trabalho como desenvolvedor web,
+        atuando no front-end e back-end, no front desenvolvia utilizando o
+        framework Angular 2+ e no back utilizando Nodejs. Atualmente sigo
+        trabalhando como desenvolvedor back-end utilizando Typescript e C# e
+        curso Análise e desenvolvimento de sistemas.
+      </p>
+    </section>
+    <!-- Seção "Graduação" -->
+    <section class="main-section -graduate">
+      <!-- Titulo principal da seção -->
+      <h2 class="main-title -variation">Graduação</h2>
+      <!-- Tag ul com a listagem dos cursos que fiz e estou fazendo -->
+      <ul class="main-subtitle -graduate">
+        <li>2012-2013 - Técnico em informatica</li>
+        <li>2018 - Orientação a objetos com Java</li>
+        <li>2018 - Html, Css e Javascript</li>
+        <li>2018 - Flexbox</li>
+        <li>2019 - Nodejs</li>
+        <li>2020 - Typescript</li>
+        <li>2020 - Clean Code</li>
+        <li>2021 - Docker</li>
+        <li>2022 - Análise e desenvolvimento de sistemas</li>
+      </ul>
+    </section>
+    <!-- Seção "Portifólio" -->
+    <section class="main-section -projects">
+      <!-- Titulo principal da seção -->
+      <h2 class="main-title -variation">Portfólio</h2>
+      <!-- Tag div que realiza "wrappe" dos cards com links para os projetos no github -->
+      <div class="wrapper-cards">
+        <a
+          href="https://github.com/GustavoCesarSantos/Lista"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <figure class="card-project">
+            <img
+              class="logo"
+              src="assets/img/logo-github.png"
+              alt="Github logo"
+            />
+            <figcaption class="main-subtitle -logo">Lista</figcaption>
+          </figure>
+        </a>
+        <a
+          href="https://github.com/GustavoCesarSantos/pokedex"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <figure class="card-project">
+            <img
+              class="logo"
+              src="assets/img/logo-github.png"
+              alt="Github logo"
+            />
+            <figcaption class="main-subtitle -logo">Pokedex</figcaption>
+          </figure>
+        </a>
+        <a
+          href="https://github.com/GustavoCesarSantos/encurtador-api"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <figure class="card-project">
+            <img
+              class="logo"
+              src="assets/img/logo-github.png"
+              alt="Github logo"
+            />
+            <figcaption class="main-subtitle -logo">Encurtador</figcaption>
+          </figure>
+        </a>
+      </div>
+    </section>
+    <!-- Seção "Contato" -->
+    <section class="main-section -contato">
+      <h2 class="main-title -variation">Contato</h2>
+      <form class="main-form">
+        <label class="main-label" for="name">Nome</label>
+        <input class="main-input" id="name" type="text" required />
+
+        <label class="main-label" for="email">E-mail</label>
+        <input class="main-input" id="email" type="text" required />
+
+        <label class="main-label" for="message">Mensagem</label>
+        <textarea class="main-input -textarea" id="message" required></textarea>
+
+        <button class="main-button -send" type="submit">Enviar</button>
+      </form>
+    </section>
+    <!-- Rodapé com contatos -->
+    <footer class="main-footer">
+      <a
+        href="https://www.linkedin.com/in/gustavo-cesar-b793ba167/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="link"
+      >
+        <img src="./assets/img/ico_linkedin.png" alt="Linkedin icon" />
+      </a>
+      <h2 class="main-title -email">| gustavocs789@gmail.com</h2>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+.main-section {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.main-section.-about {
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #0e2b37;
+  border-bottom: 10px solid #000;
+}
+
+.main-section.-graduate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #384885;
+  border-bottom: 10px solid #000;
+}
+
+.main-section .main-title {
+  margin-bottom: 60px;
+}
+
+.main-section.-projects {
+  background-color: #1a5269;
+  border-bottom: 10px solid #000;
+}
+
+.main-section.-contato {
+  background-color: #f54771;
+}

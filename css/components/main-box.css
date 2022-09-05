@@ -1,0 +1,14 @@
+.main-box {
+  display: inline-block;
+
+  padding: 42px 44px;
+
+  background-color: #1a5269;
+  box-shadow: 5px 5px 0px #000000;
+
+  text-align: center;
+}
+
+.main-box .main-title {
+  margin-bottom: 28px;
+}

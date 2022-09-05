@@ -1,0 +1,16 @@
+.main-title {
+  font-size: 40px;
+  font-family: "Press Start 2P", cursive;
+  text-shadow: 4px 4px 0px #000000;
+
+  color: #ffff;
+}
+
+.main-title.-variation {
+  text-align: center;
+  text-shadow: none;
+}
+
+.main-title.-email {
+  font-size: 16px;
+}
